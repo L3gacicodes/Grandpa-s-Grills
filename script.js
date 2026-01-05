@@ -6,11 +6,11 @@ const menuCategories = [
     icon: "🍖",
     subtitle: "Perfectly seasoned, slow-roasted, wrapped with love",
     items: [
-      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices, slow-roasted on a vertical spit until golden. Wrapped in fresh sharwama bread with crisp vegetables, pickled turnips, and drizzled with our legendary garlic toum sauce.", price: "₦3,500" },
-      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, fresh parsley, our delecious and creamy sauce, and wrapped in warm, fluffy pita bread.", price: "₦3,500" },
+      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard.", price: "₦3,500" },
+      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delecious and creamy sauce, and wrapped in warm, fluffy pita bread.", price: "₦3,500" },
       { name: "Mini Shawarma", description: "All the flavor in a perfectly portioned package! Ideal for a quick bite or when you're craving that authentic shawarma taste without the commitment and sausage. Same premium ingredients, bite-sized delight.", price: "₦3,500" },
-      { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, melted cheese, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations.", price: "₦3,800" },
-      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat, extra cheese, all the veggies, three signature sauces, and served with a side of fries. A meal that commands respect.", price: "₦4,500" },
+      { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, a single sausage, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations.", price: "₦3,800" },
+      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect.", price: "₦4,500" },
     ],
   },
   {
@@ -19,7 +19,7 @@ const menuCategories = [
     icon: "🍔",
     subtitle: "Flame-grilled patties, juicy and irresistible",
     items: [
-      { name: "Beef Burger", description: "A quarter-pound of 100% premium beef, flame-grilled to your preference, topped with aged cheddar, crisp lettuce, vine-ripened tomatoes, caramelized onions, and our smoky BBQ-infused house sauce. Served on a toasted brioche bun.", price: "₦3,600" },
+      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers amd our world class sauce. Served on a toastedbun.", price: "₦3,600" },
     ],
   },
   {
@@ -28,9 +28,9 @@ const menuCategories = [
     icon: "🥪",
     subtitle: "Hearty handhelds for every appetite",
     items: [
-      { name: "Meshai (Fried Egg)", description: "The legendary breakfast sandwich the way the aboks intended it to be Two perfectly fried eggs with crispy edges and runny yolks, fresh herbs, a hint of cumin, and a spicy kick from our house chili sauce. Pressed between golden-toasted bread.", price: "₦2,500" },
-      { name: "Chicken Sandwich", description: "Tender, herb-marinated chicken breast grilled to juicy perfection. Topped with crisp iceberg lettuce, juicy tomatoes, sliced avocado, and finished with tangy honey mustard on artisan bread.", price: "₦3,000" },
-      { name: "Scrambled Egg Sandwich", description: "Silky, French-style scrambled eggs seasoned with fresh pepper and a touch of cream cheese. Nestled in warm, buttery toast with crispy bacon and a drizzle of olive oil for that extra indulgence.", price: "₦3,000" },
+      { name: "Meshai (Fried Egg)", description: "The legendary breakfast sandwich the way the aboks intended it to be Two perfectly fried eggs with crispy edge, Pressed between golden-toasted bread.", price: "₦2,500" },
+      { name: "Chicken Sandwich", description: "Tender, herb-marinated chicken in beteween toasted bread and our signature sauce .", price: "₦3,000" },
+      { name: "Scrambled Egg Sandwich", description: "Silky,scrambled egg between lightly toasted bread.", price: "₦3,000" },
     ],
   },
   {
@@ -39,8 +39,8 @@ const menuCategories = [
     icon: "🍜",
     subtitle: "Nigerian goodness, street food style",
     items: [
-      { name: "Noodles and Egg", description: "Springy egg noodles wok-tossed at high heat with farm-fresh scrambled eggs or boiled eggs, colorful bell peppers, green onions, and our umami-rich pepper sauce.", price: "₦4,000" },
-      { name: "Noodles and Chicken", description: "Succulent chicken strips stir-fried with bouncy noodles in our signature wok sauce — a perfect blend of soy, oyster sauce, and aromatic garlic. Loaded with fresh vegetables and topped with crispy shallots.", price: "₦2,800" },
+      { name: "Noodles and Egg", description: "Springy egg noodles made at high heat with farm-fresh scrambled eggs or boiled eggs.", price: "₦4,000" },
+      { name: "Noodles and Chicken", description: "Delicious stir-fried noodles and chicken, just the way mum makes it.", price: "₦2,800" },
     ],
   },
   {
@@ -49,7 +49,7 @@ const menuCategories = [
     icon: "🥞",
     subtitle: "Fluffy stacks of golden sweetness",
     items: [
-      { name: "Pancakes", description: "A towering stack of light, airy buttermilk pancakes cooked to golden perfection. Served with a generous pat of butter, warm maple syrup, fresh seasonal berries, and a dusting of powdered sugar. Pure comfort on a plate.", price: "₦2,500" },
+      { name: "Pancakes", description: "Six pieces of delicious pancakes. Pure comfort on a plate.", price: "₦2,500" },
     ],
   },
   {
@@ -58,9 +58,9 @@ const menuCategories = [
     icon: "🥤",
     subtitle: "Refreshing sips to complete your meal",
     items: [
-      { name: "Milkshake", description: "Ultra-thick, creamy milkshakes made with premium ice cream. Choose from classic vanilla bean, rich Belgian chocolate, or fresh strawberry. Topped with whipped cream and a cherry — the perfect sweet finish.", price: "₦3000" },
-      { name: "Smoothie", description: "Vibrant, refreshing blends of hand-picked tropical fruits, Greek yogurt, and a touch of honey. Packed with vitamins and natural goodness. Choose from Mango Paradise, Berry Blast, or Green Goddess.", price: "₦2,200" },
-      { name: "Yoghurt", description: "Thick, creamy Greek-style yoghurt served in a chilled bowl. Drizzled with golden honey, sprinkled with crunchy granola, and topped with fresh fruit. Light, healthy, and absolutely satisfying.", price: "₦2,800" },
+      { name: "Milkshake", description: "Ultra-thick, creamy milkshakes made with premium Banana, milk and Grandpa's special touch — the perfect sweet finish.", price: "₦3000" },
+      { name: "Smoothie", description: "Vibrant, refreshing blends of Banana, pineapple, apple, watermelon and milk. Packed with vitamins and natural goodness.", price: "₦2,200" },
+      { name: "Yoghurt", description: "Thick, creamy vanilla ypghurt. Light, healthy, and absolutely satisfying.", price: "₦2,800" },
     ],
   },
 ];
@@ -88,8 +88,7 @@ const foodImages = {
 let cart = [];
 
 const extras = {
-  "Extra Chicken": { price: "₦3,500" },
-  "Extra Fish": { price: "₦3,500" }
+  "Extra Sausage": { price: "₦500" },
 };
 
 
@@ -404,22 +403,15 @@ function initExtras() {
 
       const extraName = btn.getAttribute("data-extra");
       const extra = extras[extraName];
-
       if (!extra) return;
 
       addToCart(extraName, extra.price);
 
-      const originalText = btn.textContent;
-      btn.classList.add("added");
-      btn.textContent = "Added ✔";
-
-      setTimeout(() => {
-        btn.classList.remove("added");
-        btn.textContent = originalText;
-      }, 1000);
+      updateExtraButtons(); // ✅ sync button immediately
     });
   });
 }
+
 
 function addToCart(name, price) {
   const existingItem = cart.find(item => item.name === name);
@@ -486,6 +478,21 @@ function getTotalPrice() {
   }, 0);
 }
 
+/* 👇 ADD THIS DIRECTLY AFTER */
+function updateExtraButtons() {
+  document.querySelectorAll(".extra-protein").forEach(btn => {
+    const extraName = btn.getAttribute("data-extra");
+    const quantity = getItemQuantity(extraName);
+
+    if (quantity > 0) {
+      btn.classList.add("added");
+      btn.textContent = `Added (${quantity})`;
+    } else {
+      btn.classList.remove("added");
+      btn.textContent = "Add";
+    }
+  });
+}
 function updateCartUI() {
   const cartBadge = document.getElementById('cart-badge');
   const cartItems = document.getElementById('cart-items');
@@ -556,7 +563,7 @@ function updateCartUI() {
   if (cartTotalPrice) {
     cartTotalPrice.textContent = `₦${getTotalPrice().toLocaleString()}`;
   }
-}
+  updateExtraButtons();}
 
 function handleCheckout() {
   if (cart.length === 0) return;

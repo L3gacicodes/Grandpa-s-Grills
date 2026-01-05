@@ -856,14 +856,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 3rem;
   }
 }
-
 .extras-buttons {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: center;   /* 👈 horizontal center */
+  align-items: center;       /* 👈 vertical center */
   width: 100%;
 }
+
 
 @media (max-width: 640px) {
   .extras-buttons {
@@ -886,10 +885,18 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   min-width: fit-content;
   text-align: center;
+  .extra-protein {
+  margin: 0 auto;              /* 👈 force center */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 }
 
 @media (max-width: 640px) {
-  .extra-protein {
+  .extra-sausage {
     padding: 0.875rem 2rem;
     width: 100%;
     max-width: 200px;
@@ -901,13 +908,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.extra-protein:hover {
+.extra-sausage:hover {
   background: color-mix(in srgb, var(--accent) 20%, transparent);
   transform: translateY(-2px);
 }
 
 @media (max-width: 640px) {
-  .extra-protein:hover {
+  .extra-sausage:hover {
     transform: none;
   }
 }
@@ -1633,6 +1640,22 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 44px;
     display: flex;
     align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  .food-card-image {
+    height: 210px;          /* 👈 smaller but visible */
+    min-height: 190px;
+  }
+
+  .food-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .food-card {
+    min-height: 170px;      /* 👈 reduce card height too */
   }
 }
 
