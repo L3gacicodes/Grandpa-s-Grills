@@ -6,11 +6,11 @@ const menuCategories = [
     icon: "🍖",
     subtitle: "Perfectly seasoned, slow-roasted, wrapped with love",
     items: [
-      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard.", price: "₦3,500" },
-      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delicious and creamy sauce, and wrapped in warm, fluffy pita bread.", price: "₦3,500" },
-      { name: "Mini Shawarma", description: "All the flavor in a perfectly portioned package! Ideal for a quick bite or when you're craving that authentic shawarma taste without the commitment and sausage. Same premium ingredients, bite-sized delight.", price: "₦3,500" },
-      { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, a single sausage, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations.", price: "₦3,800" },
-      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect.", price: "₦4,500" },
+      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard. Contains chicken and one sausage", price: "₦3,500" },
+      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delicious and creamy sauce, and wrapped in warm, fluffy pita bread. Contains beef and one sausage", price: "₦3,500" },
+      { name: "Mini Shawarma", description: "All the flavor in a perfectly portioned package! Ideal for a quick bite or when you're craving that authentic shawarma taste without the commitment and sausage. Same premium ingredients, bite-sized delight. Contains chicken without sausage", price: "₦3,000" },
+      { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, a single sausage, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations. Contains chicken, beef and one sausage", price: "₦3,800" },
+      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect. Contains chicken, beef, two sausages and irish potatoes", price: "₦4,500" },
     ],
   },
   {
@@ -19,7 +19,7 @@ const menuCategories = [
     icon: "🍔",
     subtitle: "Flame-grilled patties, juicy and irresistible",
     items: [
-      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers and our world class sauce. Served on a toasted bun.", price: "₦3,600" },
+      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers and our world class sauce. Served on a toasted bun.Contains beef, tomatoes, cucumber and sauce", price: "₦3,600" },
     ],
   },
   {
@@ -28,9 +28,9 @@ const menuCategories = [
     icon: "🥪",
     subtitle: "Hearty handhelds for every appetite",
     items: [
-      { name: "Meshai (Fried Egg)", description: "The legendary breakfast sandwich the way the aboks intended it to be Two perfectly fried eggs with crispy edge, Pressed between golden-toasted bread.", price: "₦2,500" },
-      { name: "Chicken Sandwich", description: "Tender, herb-marinated chicken in beteween toasted bread and our signature sauce .", price: "₦3,000" },
-      { name: "Scrambled Egg Sandwich", description: "Silky,scrambled egg between lightly toasted bread.", price: "₦3,000" },
+      { name: "Meshai (Fried Egg)", description: "The legendary breakfast sandwich the way the aboks intended it to be Two perfectly fried eggs with crispy edge, Pressed between golden-toasted bread. Contains toasted bread and fried eggs", price: "₦2,500" },
+      { name: "Chicken Sandwich", description: "Tender, herb-marinated chicken in beteween toasted bread and our signature sauce. Contains toasted bread, chicken and sauce.", price: "₦3,000" },
+      { name: "Scrambled Egg Sandwich", description: "Silky,scrambled egg between lightly toasted bread. Contains toasted bread and scrambled eggs", price: "₦3,000" },
     ],
   },
   {
@@ -39,8 +39,8 @@ const menuCategories = [
     icon: "🍜",
     subtitle: "Nigerian goodness, street food style",
     items: [
-      { name: "Noodles and Egg", description: "Springy egg noodles made at high heat with farm-fresh scrambled eggs or boiled eggs.", price: "₦4,000" },
-      { name: "Noodles and Chicken", description: "Delicious stir-fried noodles and chicken, just the way mum makes it.", price: "₦2,800" },
+      { name: "Noodles and Egg", description: "Springy egg noodles made at high heat with farm-fresh scrambled eggs or boiled eggs.Contains Hungry Man size noodles and two eggs which are either boiled or fried", price: "₦3,000" },
+      { name: "Noodles and Chicken", description: "Delicious stir-fried noodles and chicken, just the way mum makes it.Contains Hungry Man size noodles and grilled chicken ", price: "₦4,000" },
     ],
   },
   {
@@ -49,7 +49,7 @@ const menuCategories = [
     icon: "🥞",
     subtitle: "Fluffy stacks of golden sweetness",
     items: [
-      { name: "Pancakes", description: "Six pieces of delicious pancakes. Pure comfort on a plate.", price: "₦2,500" },
+      { name: "Pancakes", description: "Six pieces of delicious pancakes. Pure comfort on a plate.", price: "₦3,000" },
     ],
   },
   {
@@ -58,9 +58,9 @@ const menuCategories = [
     icon: "🥤",
     subtitle: "Refreshing sips to complete your meal",
     items: [
-      { name: "Milkshake", description: "Ultra-thick, creamy milkshakes made with premium Banana, milk and Grandpa's special touch — the perfect sweet finish.", price: "₦3000" },
-      { name: "Smoothie", description: "Vibrant, refreshing blends of Banana, pineapple, apple, watermelon and milk. Packed with vitamins and natural goodness.", price: "₦2,200" },
-      { name: "Yoghurt", description: "Thick, creamy vanilla yoghurt. Light, healthy, and absolutely satisfying.", price: "₦2,800" },
+      { name: "Milkshake", description: "Ultra-thick, creamy milkshakes made with premium Banana, milk and Grandpa's special touch — the perfect sweet finish. Contains Banana and milk and comes in 50cl bottles", price: "₦3000" },
+      { name: "Smoothie", description: "Vibrant, refreshing blends of Banana, pineapple, apple, watermelon and milk. Packed with vitamins and natural goodness. Contains Banana, pineapple, apple, watermelon and milk and comes in a 50cl bottle", price: "₦2,200" },
+      { name: "Yoghurt", description: "Thick, creamy vanilla yoghurt. Light, healthy, and absolutely satisfying.Controls home made, Vanilla flavored Yoghurt and comes in 50cl bottles", price: "₦2,800" },
     ],
   },
 ];
