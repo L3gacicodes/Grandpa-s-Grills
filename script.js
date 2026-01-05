@@ -7,7 +7,7 @@ const menuCategories = [
     subtitle: "Perfectly seasoned, slow-roasted, wrapped with love",
     items: [
       { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard.", price: "₦3,500" },
-      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delecious and creamy sauce, and wrapped in warm, fluffy pita bread.", price: "₦3,500" },
+      { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delicious and creamy sauce, and wrapped in warm, fluffy pita bread.", price: "₦3,500" },
       { name: "Mini Shawarma", description: "All the flavor in a perfectly portioned package! Ideal for a quick bite or when you're craving that authentic shawarma taste without the commitment and sausage. Same premium ingredients, bite-sized delight.", price: "₦3,500" },
       { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, a single sausage, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations.", price: "₦3,800" },
       { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect.", price: "₦4,500" },
@@ -19,7 +19,7 @@ const menuCategories = [
     icon: "🍔",
     subtitle: "Flame-grilled patties, juicy and irresistible",
     items: [
-      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers amd our world class sauce. Served on a toastedbun.", price: "₦3,600" },
+      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers and our world class sauce. Served on a toasted bun.", price: "₦3,600" },
     ],
   },
   {
@@ -60,7 +60,7 @@ const menuCategories = [
     items: [
       { name: "Milkshake", description: "Ultra-thick, creamy milkshakes made with premium Banana, milk and Grandpa's special touch — the perfect sweet finish.", price: "₦3000" },
       { name: "Smoothie", description: "Vibrant, refreshing blends of Banana, pineapple, apple, watermelon and milk. Packed with vitamins and natural goodness.", price: "₦2,200" },
-      { name: "Yoghurt", description: "Thick, creamy vanilla ypghurt. Light, healthy, and absolutely satisfying.", price: "₦2,800" },
+      { name: "Yoghurt", description: "Thick, creamy vanilla yoghurt. Light, healthy, and absolutely satisfying.", price: "₦2,800" },
     ],
   },
 ];
