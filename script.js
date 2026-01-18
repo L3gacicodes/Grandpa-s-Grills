@@ -6,11 +6,11 @@ const menuCategories = [
     icon: "🍖",
     subtitle: "Perfectly seasoned, slow-roasted, wrapped with love",
     items: [
-      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard. Contains chicken and one sausage", price: "₦3,500" },
+      { name: "Chicken Shawarma", description: "Juicy, tender chicken marinated in aromatic Nigerian spices,sharwama wey go Harvard. Contains chicken and one sausage", price: "₦3,700" },
       { name: "Beef Shawarma", description: "Premium cuts of beef, seasoned with our 7-spice blend and grilled to succulent perfection. Layered with cabbage, our delicious and creamy sauce, and wrapped in warm, fluffy pita bread. Contains beef and one sausage", price: "₦3,500" },
       { name: "Mini Shawarma", description: "All the flavor in a perfectly portioned package! Ideal for a quick bite or when you're craving that authentic shawarma taste without the commitment and sausage. Same premium ingredients, bite-sized delight. Contains chicken without sausage", price: "₦3,000" },
       { name: "Special Shawarma", description: "The chef's masterpiece — featuring double-stacked premium meat and chicken, a single sausage, caramelized onions, pepper, and Grandpa's legendary secret sauce that's been perfected over three generations. Contains chicken, beef and one sausage", price: "₦3,800" },
-      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect. Contains chicken, beef, two sausages and irish potatoes", price: "₦4,500" },
+      { name: "Big Daddy Shawarma", description: "Go big or go home! This monster wrap is loaded with double meat and chicken, all the veggies, two sausages, and served with a side of fries. A meal that commands respect. Contains chicken, beef, two sausages and irish potatoes", price: "₦4,800" },
     ],
   },
   {
@@ -19,7 +19,7 @@ const menuCategories = [
     icon: "🍔",
     subtitle: "Flame-grilled patties, juicy and irresistible",
     items: [
-      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers and our world class sauce. Served on a toasted bun.Contains beef, tomatoes, cucumber and sauce", price: "₦3,600" },
+      { name: "Beef Burger", description: "100% premium beef, flame-grilled to your preference, topped with vine-ripened tomatoes,cucumbers and our world class sauce. Served on a toasted bun.Contains beef, tomatoes, cucumber and sauce", price: "₦3,900" },
     ],
   },
   {
